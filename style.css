@@ -1,0 +1,126 @@
+body{
+    margin: 0px; 
+    padding: 0px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    margin-right: 20px;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.GREEN{
+    color: green;
+    margin-left: 20px;
+    font-size: 23px;
+    
+}
+
+.home{
+    color: green;
+}
+
+select{
+    border: none;
+}
+
+.start{
+   border: 1px solid green;
+   padding: 10px 15px;
+   position: relative;
+   bottom: 10px;
+   border-radius: 4px;
+   color: green;
+   height: 20px;
+   
+}
+
+/* slidebaer */
+
+
+.slidebar{
+    background-image: url("green.webp");
+    margin-top:-10px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 15px;
+    
+    
+   
+}
+.slidebar-heading{
+
+    color: white;
+
+}
+
+
+.slidebar-content{
+    margin: 0px 40px;
+    text-align-last: center;
+    color: white;
+    line-height: 20px;
+}
+
+button{
+    padding: 8px 16px;
+    background-color: rgb(53, 192, 53);
+    color:white;
+    border: none;
+    margin-top: 10px;
+    line-height: 20px;
+    border-radius: 3px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(64, 206, 64);
+    border-radius: 2px;
+}
+
+.icons-bar{
+    
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid white;
+    /* text-align: justify; */
+    column-gap: 50px;
+    margin: 40px 40px 0px 40px;
+    
+    
+}
+
+.icon-three{
+    margin: -30px;
+}
+
+i {
+    color: green;
+    margin-top: -30px;
+}
+
+i .bi-laptop {
+   font-size: 50px;
+}
+
+.icon-two-heading{
+  margin-top: 40px;
+}
+
+.icon-one{
+    margin-top: -20px;
+}
